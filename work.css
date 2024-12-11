@@ -1,0 +1,415 @@
+.bind1 {
+    display: flex;
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    opacity: 0.65;
+    background-color: #202223;
+    z-index: 5;
+  border-radius: 15px;
+  }
+  
+.bind1:hover {
+    opacity: 0;
+    width: 700px;
+    height: 400px;
+}
+
+.bind1 p{
+    font-size: 50px;
+    font-family:bold3 ;    
+    margin: 149px;
+}
+
+.light-mode .bind1 p{
+    color: white;
+    font-size: 50px;
+    font-family:bold3 ;    
+    margin: 149px;
+}
+
+.P-title{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-shadow: rgb(255, 255, 255) 17px 20px 50px;
+}
+.P-title:hover{
+    color:orange;
+    font-size: 60px;
+    text-shadow: orange 17px 20px 50px;
+}
+#f-title{
+    width: 1393px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#f-title:hover{
+    color: orange;
+}
+
+.light-mode .P-title{
+    color: rgb(10, 10, 10);
+    font-size: 60px;
+    text-shadow: rgb(27, 79, 93) 17px 20px 50px;
+}
+.light-mode .P-title:hover{
+    color:rgb(24, 116, 139);
+    font-size: 60px;
+    text-shadow: rgb(27, 79, 93) 17px 20px 50px;
+}
+
+.Wlogo{
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 120px;
+    translate: 400px 17px;
+    animation: logoanimation 1s infinite;
+}
+
+.line2{
+  width: 1108px;
+}
+.info{
+    width: 400px;
+}
+#figma{
+    width: 1000px; 
+    height: 636px;
+    overflow: auto;
+    position: relative;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+
+#figma img{
+    width: 990px;
+    height: 2641px;
+    object-fit: cover;
+}
+
+.info{
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.info p{
+    width: 399px;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+}
+
+
+#figFF{
+    margin-bottom: 140px;
+}
+
+.qwerty{
+    border: transparent;
+    display: inline-block;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 269px;
+    padding: 12px;
+    margin: 20px 50px;
+    border-radius: 111px;
+    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #1593e3, #5918df);
+    background-size: 200% auto;
+    color: hsla(0,0%,100%,.9);
+    font-size: 24px;
+    text-decoration: none;
+    background-size: 1100%;
+    transform: scaleX(1);
+    font-family: bold3;
+    box-shadow:  7px 20px 120px 3px #5918df;
+    transition: transform .3s cubic-bezier(.175,.885,.32,1.275),background-position 3s cubic-bezier(.455,.03,.515,.955);
+  
+}
+
+.qwerty:hover {
+    background-position: right center;
+    box-shadow:7px 20px 120px 3px  #ffa43d91;
+  }
+
+  .light-mode .qwerty{
+    border: transparent;
+    display: inline-block;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 269px;
+    padding: 12px;
+    margin: 20px 50px;
+    border-radius: 111px;
+    background: linear-gradient(-45deg, #42c7ce, #407073, #283d3e, #202223);
+    background-size: 200% auto;
+    color: hsla(0,0%,100%,.9);
+    font-size: 24px;
+    text-decoration: none;
+    background-size: 1100%;
+    transform: scaleX(1);
+    font-family: bold3;
+    box-shadow: none;
+    transition: transform .3s cubic-bezier(.175,.885,.32,1.275),background-position 3s cubic-bezier(.455,.03,.515,.955);
+  }
+.light-mode .qwerty:hover {
+    background-position: right center;
+}
+  
+
+@keyframes logoanimation {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.75);
+    }
+    100%{
+        transform: scale(1);
+        
+    }
+}
+
+
+#figma2{
+    width: 1000px; 
+    height: 636px;
+    overflow: auto;
+    position: relative;
+    border-radius: 15px;
+    border: 2px black solid;
+}
+
+#figma2 img{
+    width: 990px;
+    height: 4769px;
+    object-fit: cover;
+}
+
+#figma3{
+    width: 1000px; 
+    height: 636px;
+    overflow: auto;
+    position: relative;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+
+#figma3 img{
+    width: 990px;
+    height: 2391px;
+    object-fit: cover;
+}
+
+#figma4{
+    width: 350px; 
+    height: 636px;
+    overflow: auto;
+    position: relative;
+    border: 10px rgb(255, 255, 255) solid;
+    border-radius: 15px;
+}
+.light-mode #figma4{
+    border-color: rgb(26, 26, 26);
+}
+#figma4 img{
+    width: 358px;
+    height: 2334px;
+    object-fit: cover;
+}
+
+#figma3{
+    width: 1000px; 
+    height: 636px;
+    overflow: auto;
+    position: relative;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+
+#figma3 img{
+    width: 990px;
+    height: 2391px;
+    object-fit: cover;
+}
+
+.info-m{
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.info-m p{
+    width: 628px;
+    justify-content: space-around;
+    display: flex;
+    padding: 53px;
+}
+
+#figma5{
+    width: 1000px; 
+    height: 560px;
+    overflow: auto;
+    position: relative;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+
+#figma5 img{
+    width: 990px;
+    height: 560px;
+    object-fit: cover;
+}
+
+#figma6{
+    width: 1000px; 
+    height: 560px;
+    overflow: auto;
+    position: relative;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+
+#figma6 img{
+    width: 990px;
+    height: 560px;
+    object-fit: cover;
+}
+
+#figma7{
+    width: 1000px; 
+    height: 560px;
+    overflow: auto;
+    position: relative;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+
+#figma7 img{
+    width: 990px;
+    height: 560px;
+    object-fit: cover;
+}
+
+#figma8{
+    width: 1000px; 
+    height: 560px;
+    overflow: auto;
+    position: relative;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+
+#figma8 img{
+    width: 990px;
+    height: 560px;
+    object-fit: cover;
+}
+
+#myVideo{
+    display: flex;
+    width: 100%;
+    height: 732px;
+    margin-bottom: 104px;
+    justify-content: center;
+}
+
+.play{
+    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #1593e3, #5918df);
+    background-size: 200% auto;
+    color: hsla(0,0%,100%,.9);
+     border-radius: 400px;
+    padding: 14px 70px;
+    margin: 5px;
+    background-size: 1100%;
+    transform: scaleX(1);
+    font-family: bold3;
+    transition: transform .3s cubic-bezier(.175,.885,.32,1.275),background-position 3s cubic-bezier(.455,.03,.515,.955);
+    font-size: 24px;
+}
+
+.play:hover {
+    background-position: right center;
+    
+  }
+
+.light-mode .play{
+    background: linear-gradient(-45deg, #42c7ce, #407073, #283d3e, #202223);
+    background-size: 200% auto;
+    color: hsla(0,0%,100%,.9);
+     border-radius: 400px;
+    padding: 14px 70px;
+    margin: 5px;
+    background-size: 1100%;
+    transform: scaleX(1);
+    font-family: bold3;
+    transition: transform .1s cubic-bezier(.175,.885,.32,1.275),background-position 1s cubic-bezier(.455,.03,.515,.955);
+    font-size: 24px;
+}
+.light-mode .play:hover {
+    background-position: right center;
+}
+
+  #figma9{
+    width: 1000px; 
+    height: 554px;
+    overflow: auto;
+    position: relative;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+
+#figma9 img{
+    width: 981px;
+    height: 555px;
+    object-fit: cover;
+}
+
+#figma22{
+    width: 350px; 
+    height: 686px;
+    overflow: auto;
+    position: relative;
+    border: 10px rgb(255, 255, 255) solid;
+    border-radius: 15px;
+}
+.light-mode #figma22{
+    border-color: rgb(26, 26, 26);
+}
+#figma22 img{
+    width: 354px;
+    height: 4841px;
+    object-fit: cover;
+}
+
+.bwl{
+    width: 406px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 251px;
+    background-size: cover;
+}
+
+.bwl img{
+    margin: 14px;
+    width: 80px;
+    height: 50px;
+    filter: invert();
+}
+
+.bwl p{
+    font-size: 19px;
+    color: grey;
+    font-family: bold3;
+}
+
+.light-mode .bwl {
+    filter: invert();
+}

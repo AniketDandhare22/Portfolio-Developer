@@ -1,0 +1,166 @@
+#contact{
+    translate: 121px 50px;
+    width: 88%;
+    height: 1000px;
+    font-family: bold3;
+    margin: 0;
+}
+
+#contact h4{
+    font-size: 65px;
+    margin: 0;
+}
+
+#multi-step-form {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'PT Sans Narrow', sans-serif;}
+
+
+  .step {
+    display: none;
+    text-align: center;
+  }
+
+  .step.active {
+    display: block;
+  }
+
+  .step input{
+    border-color:transparent ;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 30px;
+    transition: border-bottom-color 0.3s ease-in-out;
+    outline: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+
+  .contact-section {
+    height: 320px;
+    background-color:whitesmoke ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .contact-section h1 {
+    font-size: 34px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .contact-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+    margin: 0 10px;
+  }
+
+  .copyright {
+    font-size: 20px;
+    color: #666;
+    margin-top: auto;
+  }
+
+.light-mode  .contact-section {
+    filter: invert();
+    background-image: url(/Screenshot\ 2023-06-12\ 015924.png) ;
+}
+
+.light-mode  .step input{
+    border-color:transparent ;
+    background-color: transparent;
+    color: rgb(30, 30, 30);
+    border: none;
+    border-bottom: 2px solid rgb(45, 45, 45);
+    font-size: 30px;
+    transition: border-bottom-color 0.3s ease-in-out;
+    outline: none;
+  }
+  .light-mode .btn2{
+    display: none;
+  }
+
+  .popout {
+    position: relative;
+    width: 100%;
+    max-width: 1700px;
+    height: 1000px;
+  }
+  
+  .image-div {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact-div {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .menu-list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+  }
+  
+  .contact-info {
+    /* Add styles for contact information */
+  }
+  
+  /* Animation for menu pop-out */
+  .popout {
+    animation-name: popOut;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes popOut {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  /* Add media queries for responsiveness */
+  
+  .Aimage .qwerty{
+    width: 1000px;
+    
+    translate: 60px;
+    margin: -16px 244px;
+  }

@@ -1,0 +1,212 @@
+@media screen and (max-width:650px) {
+    .menu {
+        display: none;
+    }
+
+    .content{
+        display: flex;
+    }
+    .text{
+        width: 780px;
+        font-size: 20px;
+    }
+    .button{
+        position: relative;
+        width: 653px;
+        top: 100px;
+        
+    }
+    .image{
+        position: absolute;
+        top: 227px;
+        left: 934px;
+        width: 630px;
+        height: 630px;
+    }
+    .social{
+        left: 1251px;
+    }
+    .logo img{
+        width: 50%;
+    }
+    .theme-toggle{
+        left: 1186px;
+    }
+    .scrll{
+        display: flex;
+        position: absolute;
+        left: 311px;
+        width: 800px;
+    }
+    .scrll p{
+        font-size: larger;
+        display: flex;
+        position: absolute;
+        left: 809px;
+    }
+    .loading-page{
+        display: none;
+    }
+    .light-mode .image {
+        width: 643px;
+        background-position: center;
+        background-image: url(/396226444sphere-computer-effects-3d-animated-gif-29.gif);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .light-mode .bg {
+        position: absolute;
+        z-index: -1;
+        width: 1692px;
+        height: 951px;
+        background-image: url(/Background-website-01-1024x687.jpg);
+        background-size: cover;
+        opacity: 0.45;
+    }
+    .menu-pop{
+        top: 121px;
+        position: fixed;
+        background-color: #733cff;
+        padding: 5px;
+        height: 19px;
+        border-radius: 100px;
+        border: 5px wheat solid;
+        width: 100px;
+      }
+
+}
+
+
+
+
+.qlines {
+    opacity: 0;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 9999;
+    
+  }
+  
+  .line {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    margin-bottom: 6px;
+  }
+  
+  .menu-box.open {
+    right: 0;
+    width: 27%;
+}
+
+  .menu-box {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    transition: right 0.3s ease-in-out;
+    border: 1.5px rgba(0, 0, 0, 0.276) solid;
+    z-index: 9998;
+  }
+  
+  
+  .close-btn {
+    top: 50px;
+    right: 642px;
+    font-family: sans-serif;
+    width: 20px;
+    height: 20px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 1000;
+    cursor: pointer;
+    padding: 41px;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+  }
+  
+  .menu-list li {
+    font-size: 26px;
+    padding: 24px 120px;
+  }
+  
+  .menu-list li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu-image {
+    }
+  
+  /* Animation to slide out the menu box */
+  .menu-box.open {
+    right: 0;
+  }
+  
+  .menu-image img{
+    width: 100%;
+    height: 100%;
+    }
+
+.menu-box p{
+    position: absolute;
+    color: #733cff;
+    top: -2px;
+    font-size: 40px;
+    left: 41%;
+    font-family: bold1;
+}
+
+.menu-pop{
+    display: inline;
+    position: absolute;
+    font-size: 20px;
+    translate: 1027px -84px;
+    color: white;
+    text-decoration:none;
+  }
+  
+.menu-pop a{
+    translate: 1026px -86px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .light-mode .menu-pop a{
+    translate: 1026px -86px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .menu-pop a:hover{
+    text-decoration: underline;
+  }
+
+  .menu-pop li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+.menu-pop li a:hover::before {
+    visibility: visible;
+    transform: scaleX(0.5);
+  }

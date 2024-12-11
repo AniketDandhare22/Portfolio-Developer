@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Under-Construction</title>
+  <style>
+    body {
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .error-code {
+      font-size: 100px;
+      font-weight: bold;
+      color: #263238;
+      margin: 0px;
+    }
+
+    .error-message {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .button-container {
+      margin-top: 20px;
+    }
+
+    .button:hover{
+        color: #263238;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: #FFC100;
+      color: #fff;
+      font-size: 18px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    img{
+        width: 629px;
+        height: 570px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="error-code">Website Maintance! Try Later</h1>
+    <img src="./about/Under construction-amico.svg" alt="">
+    <p class="error-message">Oops! Page under maintainance</p>
+    <div class="button-container">
+      <button class="button" onclick="goToHome()">Go to Home</button>
+    </div>
+  </div>
+
+  <script>
+    function goToHome() {
+      // Redirect to home page
+      window.location.href = "home.html"; // Replace with your home page URL
+    }
+  </script>
+</body>
+</html>
